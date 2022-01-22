@@ -1,4 +1,4 @@
-
+var game = temp1
 var detectEnemies = function() {
 	var result = [];
 	if(!game.playerBarn.playerInfo[game.activeId]) return result;
@@ -101,3 +101,4 @@ function reload() {
 function stop() {
 	if(timer) clearTimeout(timer);
 }
+reload()
